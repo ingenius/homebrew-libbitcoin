@@ -1,6 +1,6 @@
 require 'formula'
 
-class Libbitcoin < Formula
+class LibbitcoinConsensus < Formula
   homepage 'https://libbitcoin.org/'
   url 'https://github.com/libbitcoin/libbitcoin-consensus.git'
   version "20160526"
