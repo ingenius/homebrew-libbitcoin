@@ -2,6 +2,8 @@ class Secp256k1 < Formula
   homepage 'https://libbitcoin.org/'
   url 'https://github.com/libbitcoin/secp256k1', :tag => 'master'
 
+  version "20160526"
+
   depends_on 'automake' => :build
   depends_on 'curl'
 
