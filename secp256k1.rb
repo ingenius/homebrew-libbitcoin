@@ -13,7 +13,9 @@ class Secp256k1 < Formula
 
   def install
     system "./autogen.sh"
-    system "./configure", "--prefix=#{prefix}"
+    system "./configure", "--enable-module-recovery",
+                          "--disable-tests",
+                          "--prefix=#{prefix}"
     system "make"
     system "make", "install"
   end
