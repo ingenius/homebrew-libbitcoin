@@ -1,6 +1,6 @@
 require 'formula'
 
-class Libbitcoin < Formula
+class Secp256k1 < Formula
   homepage 'https://libbitcoin.org/'
   url 'https://github.com/libbitcoin/secp256k1', :tag => 'master'
 
