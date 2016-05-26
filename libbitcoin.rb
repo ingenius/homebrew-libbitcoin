@@ -8,6 +8,10 @@ class Libbitcoin < Formula
   depends_on 'automake' => :build
   depends_on 'curl'
 
+  depends_on "autoconf" => :build
+  depends_on "automake" => :build
+  depends_on "libtool" => :build
+
   def install
     system "./autogen.sh"
     system "./configure", "--prefix=#{prefix}"
