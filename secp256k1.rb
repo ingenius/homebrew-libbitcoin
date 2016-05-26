@@ -1,6 +1,6 @@
 class Secp256k1 < Formula
-  homepage 'https://libbitcoin.org/'
-  url 'https://github.com/libbitcoin/secp256k1.git', :tag => 'master'
+  homepage 'https://bitcoin.org/'
+  url 'https://github.com/bitcoin-core/secp256k1.git', :tag => 'master'
 
   version "20160526"
 
