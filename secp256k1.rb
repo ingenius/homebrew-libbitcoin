@@ -1,6 +1,6 @@
 class Secp256k1 < Formula
   homepage 'https://bitcoin.org/'
-  url 'https://github.com/bitcoin-core/secp256k1.git', :tag => 'master'
+  url 'https://github.com/bitcoin-core/secp256k1.git'
 
   version "20160526"
 
