@@ -7,6 +7,7 @@ class Libbitcoin < Formula
 
   depends_on 'automake' => :build
   depends_on 'curl'
+  depends_on 'secp256k1'
 
   depends_on "autoconf" => :build
   depends_on "automake" => :build
