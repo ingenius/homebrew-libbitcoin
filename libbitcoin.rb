@@ -2,7 +2,7 @@ require 'formula'
 
 class Libbitcoin < Formula
   homepage 'https://libbitcoin.org/'
-  url 'https://github.com/libbitcoin/libbitcoin.git', :tag => 'master'
+  url 'https://github.com/libbitcoin/libbitcoin.git'
   version "20160526"
 
   depends_on 'automake' => :build
