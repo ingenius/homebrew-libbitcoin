@@ -7,10 +7,9 @@ class Secp256k1 < Formula
   depends_on 'automake' => :build
   depends_on 'curl'
 
-  def patches
-    # lboost_thread is named differently on osx
-    DATA
-  end
+  depends_on "autoconf" => :build
+  depends_on "automake" => :build
+  depends_on "libtool" => :build
 
   def install
     system "./autogen.sh"
