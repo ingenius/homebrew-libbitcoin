@@ -14,6 +14,7 @@ class Libbitcoin < Formula
   depends_on "pkg-config" => :build
 
   def install
+    ENV.append_path "PKG_CONFIG_PATH", "#{lib}/pkgconfig"
     system "./autogen.sh"
     system "./configure", "--prefix=#{prefix}"
     system "make"
