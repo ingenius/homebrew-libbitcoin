@@ -9,6 +9,7 @@ class LibbitcoinBlockchain < Formula
   depends_on 'secp256k1'
   depends_on 'libbitcoin'
   depends_on 'libbitcoin-database'
+  depends_on 'libbitcoin-consensus'
 
   depends_on "autoconf" => :build
   depends_on "automake" => :build
