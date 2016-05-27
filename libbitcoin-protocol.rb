@@ -9,7 +9,7 @@ class LibbitcoinProtocol < Formula
   depends_on 'secp256k1'
   depends_on 'libbitcoin'
   depends_on 'libbitcoin-network'
-  depends_on 'libzmq'
+  depends_on 'czmqpp'
 
   depends_on "autoconf" => :build
   depends_on "automake" => :build
