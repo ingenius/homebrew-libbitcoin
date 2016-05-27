@@ -1,6 +1,6 @@
 require 'formula'
 
-class LibbitcoinNetwork < Formula
+class LibbitcoinProtocol < Formula
   homepage 'https://libbitcoin.org/'
   url 'https://github.com/libbitcoin/libbitcoin-protocol.git'
   version "20160526"
