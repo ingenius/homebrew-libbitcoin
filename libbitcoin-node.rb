@@ -12,6 +12,7 @@ class LibbitcoinNode < Formula
   depends_on 'libbitcoin-consensus'
   depends_on 'libbitcoin-blockchain'
   depends_on 'libbitcoin-network'
+  depends_on 'libbitcoin-protocol'
 
   depends_on "autoconf" => :build
   depends_on "automake" => :build
